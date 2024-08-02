@@ -9,10 +9,10 @@ def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
 
     Args:
         k (str): STR
-        v (Union[int, float]): Int OR float 
+        v (Union[int, float]): Int OR float
 
     Returns:
         Tuple: _description_
     """
-    n = v ** 2
-    return (k, n)
+    v = v ** 2
+    return (k, v)
