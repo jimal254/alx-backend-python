@@ -6,4 +6,4 @@ def floor(n: float) -> int:
     """
     takes a float n as argument returns the float.
     """
-    return round(n)
+    return int(n)

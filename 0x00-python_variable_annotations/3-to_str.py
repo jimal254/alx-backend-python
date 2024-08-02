@@ -5,6 +5,6 @@
 def to_str(n: float) -> str:
     """
     to_str that takes a float n as argument and
-    returns the string representation of the float.
+    returns the string.
     """
     return str(n)
